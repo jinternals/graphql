@@ -1,0 +1,14 @@
+schema {
+  query : Query
+}
+
+type Query {
+  authors: [Author]
+  author(id: String): Author
+}
+
+type Author {
+  id: String
+  firstName: String
+  lastName: String
+}
