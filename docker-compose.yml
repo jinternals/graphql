@@ -13,6 +13,8 @@ services:
     image: jinternals/graphql
     ports:
       - 8080:8080
+    depends_on:
+      - mongodb
     networks:
       graphql-network:
         ipv4_address: 22.5.0.3
