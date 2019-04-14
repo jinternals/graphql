@@ -2,7 +2,7 @@
 
 
 
-##### build code and docker images :
+##### Build code and docker images :
 ```
 mvn clean install docker:build 
 ```
