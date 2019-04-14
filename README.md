@@ -7,7 +7,7 @@
 mvn clean install docker:build 
 ```
 
-#### how to run example:
+#### How to run example:
 
 
 ##### start containers :
