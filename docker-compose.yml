@@ -9,6 +9,14 @@ services:
       graphql-network:
         ipv4_address: 22.5.0.2
 
+  graphql:
+    image: jinternals/graphql
+    ports:
+      - 8080:8080
+    networks:
+      graphql-network:
+        ipv4_address: 22.5.0.3
+
 networks:
   graphql-network:
     driver: bridge
